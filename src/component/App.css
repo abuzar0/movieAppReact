@@ -1,0 +1,117 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+/* App */
+*{
+    scroll-behavior: smooth;
+}
+.app{
+    min-height: 100vh;
+    background-color: #515261;
+    padding-top: 130px;
+    padding-bottom: 70px;
+}
+.text{
+    font-size: 2.9rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(134, 43, 43);
+    box-shadow: 0 3px 0 rgb(148, 128, 124);;
+    text-align: center;
+    margin-left: 30px;
+    margin: 10px;
+}
+/* Input for search */
+::-webkit-input-placeholder { 
+    color: rgb(238, 231, 231);
+  }
+.search{
+    width: 80%;
+    background-color: transparent;
+    border: 2px solid rgb(199, 199, 171) ;
+    margin-left: 30px;
+    margin-right: 12px;
+    color:rgb(199, 199, 171);
+    padding: 0.7rem 1.5rem;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    box-shadow: 1,2,3,#090909;
+}
+.Search{
+    display: flex;
+    margin: 15px;
+}
+.btn{
+    background-color:#73add4;
+    border: 2px solid rgb(199, 199, 171) ;
+    border-radius: 0.5rem;
+    margin:4px;
+    padding:  0.5rem 1rem;
+}
+.btn:hover {
+    background-color:#19c7c7;
+    outline-color: rgb(46, 134, 175);
+}
+/*  */
+/* CARD  */
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 2px;
+    width: 330px;
+    height:585px;
+    background-color: #515261;
+    border-radius: 13px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+    position: relative;
+}
+.card img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+.card-Title{
+    width: "100%";
+    text-align: center;
+    font-family:cursive;
+    font-size:1.5rem;
+    padding: 1rem;
+}
+
+.card:hover{
+    background-color: white;
+    color: black;
+    /* transform: translateY(0%); */
+}
+@media (max-width:550px) {
+    .card{
+        width: '46%';
+    }
+}
+@media (max-width:1100) {
+    .app{
+    margin-top:20px;
+    }
+}
+/* CHips */
+.chips{
+    display: flex;
+    flex-direction: column;
+    margin: 2;
+}
+
+/* Carousel */
+
+.Credits{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    object-fit: contain;
+}
+.creditImage{
+    border-radius: 10px;
+    margin-bottom:2px;
+    box-shadow: 0px 0px 5px black;
+}
