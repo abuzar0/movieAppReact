@@ -1,6 +1,5 @@
 {
   "name": "movie",
-  "homepage":"https://abuzar0.github.io/movieAppReact",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
